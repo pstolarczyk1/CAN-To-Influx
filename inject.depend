@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1744305028 source:/home/pawel/Documents/inject/main.cpp
+	<event2/event.h>
+	<event2/listener.h>
+	<event2/buffer.h>
+	<event2/bufferevent.h>
+	<arpa/inet.h>
+	<cstring>
+	<iostream>
+	<sys/socket.h>
+	<netinet/in.h>
+	<unistd.h>
+	<sstream>
+	<vector>
+	<signal.h>
+	"influx-sender.h"
+	"process-message.h"
+
+1743450690 source:/home/pawel/Documents/inject/include/process-message.cpp
+	<stdio.h>
+	<iostream>
+	"process-message.h"
+
+1743450480 /home/pawel/Documents/inject/include/process-message.h
+
+1744305207 source:/home/pawel/Documents/inject/process-message.cpp
+	"process-message.h"
+
+1743519645 /home/pawel/Documents/inject/process-message.h
+	"influx-sender.h"
+	<vector>
+	<stdio.h>
+	<iostream>
+	<string>
+
+1743519719 /home/pawel/Documents/inject/influx-sender.h
+	<iostream>
+	"InfluxDB/InfluxDBFactory.h"
+
+1743519948 source:/home/pawel/Documents/inject/influx-sender.cpp
+	"influx-sender.h"
+
